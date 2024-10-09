@@ -14,6 +14,7 @@ vector<vector<int>> fourSum(vector<int> &nums, int target){
                     sum += nums[k];
                     sum += nums[l];
                     if(sum == target){
+                        // as we have to consider unique quads
                         vector<int> temp = {nums[i], nums[j], nums[k], nums[l]};
                         sort(temp.begin(), temp.end());
                         st.insert(temp);
