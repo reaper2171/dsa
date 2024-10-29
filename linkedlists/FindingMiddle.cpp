@@ -37,10 +37,6 @@ int main(){
     cout<<endl;
     Node* middle = findMiddle(head);
     cout<<middle->data<<endl;
-    // while(head!=NULL){
-    //     cout<<head->data<<"     ";
-    //     head = head->next;
-    // }
-    // cout<<endl;
+    
     return 0;
 }
